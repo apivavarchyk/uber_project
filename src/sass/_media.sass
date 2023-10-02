@@ -1,0 +1,252 @@
+@media (max-width: 1200px)
+	.promo
+		&_header
+			font-size: 55px
+		&_subheader
+			font-size: 33px
+	.reasons
+		&_item
+			min-height: 216px
+	.mobile
+		&_item
+			width: 300px
+			&_subtitle
+				font-size: 35px
+				line-height: 30px
+	.footer
+		&_wrapper > div
+			width: 50%
+			&:nth-child(1)
+				width: 25%
+			&:nth-child(3)
+				width: 25%
+				display: flex
+				justify-content: flex-end
+		&_apps
+			display: flex
+			a
+				margin: 0 3px
+				img
+					width: 100%
+
+@media (max-width: 991px)
+	.menu
+		&_link
+			font-size: 11px
+	.subheader
+		&_logo
+			img
+				width: 100%
+		&_official
+			font-size: 11px
+		&_phone
+			font-size: 18px
+		&_btn
+			margin-top: 21px
+			width: 100%
+			height: 40px
+	.promo
+		&_descr
+			margin-top: 30px
+			font-size: 16px
+	.reasons
+		&_item
+			flex-direction: column
+			align-items: center
+		&_round
+			margin-right: 0
+		&_descr
+			margin-top: 20px
+			min-height: 216px
+	.mobile
+		&_item
+			width: 220px
+			&_subtitle
+				font-size: 30px
+				line-height: 25px
+	.footer
+		&_wrapper
+			flex-wrap: wrap
+		&_wrapper > div
+			width: 100%
+			display: flex
+			justify-content: center
+			margin-bottom: 20px
+			&:nth-child(1)
+				width: 100%
+			&:nth-child(3)
+				width: 100%
+				justify-content: center
+		&_social
+			padding: 0	
+
+@media (max-width: 767px)
+	.menu
+		position: fixed
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		top: 0
+		left: -100%
+		width: 50%
+		height: 100vh/* 100% высоты экрана монитора, планшета */
+		padding: 20px 15px
+		background-color: rgba(0,0,0,.8)
+		transition: .6s
+		&_active
+			left: 0
+		&_item
+			padding-right: 10px
+			margin-top: 10px
+		&_link
+			font-size: 20px
+	.hamburger
+		display: block
+		position: absolute
+		right: 20px
+		top: 50%
+		transform: translateY(-50%)
+		width: 35px
+		height: 18px
+		span
+			display: block
+			height: 2px
+			width: 100%
+			background-color: #fff
+			margin-bottom: 4px
+			transform: .5s
+		&_active
+			span
+				margin-bottom: -2px
+				&:nth-child(1)
+					transform: translateY(5px) rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(5px) rotate(45deg)
+	.xs_hidden
+		display: none	
+	.xs_visible
+		display: block
+	.subheader
+		&_phone
+			display: block 
+			margin-top: 10px
+			color: #FFF
+			text-align: center
+			font-size: 16px
+			font-style: normal
+			font-weight: 400
+			text-transform: uppercase	
+		&_btn
+			display: block
+			width: 150px 
+			height: 36px
+			margin: 0 auto	
+			margin-top: 15px
+	.promo
+		&_header			
+			font-size: 40px		
+		&_descr	
+			font-size: 14px
+	.reasons
+		&_descr
+			min-height: 150px
+	.require
+		&_title
+		line-height: 20px
+	.label_white
+		margin-top: 0
+	.title_white
+		margin-top: 15px
+@media (max-width: 575px)
+	.menu
+		&_item
+			width: 100%
+			text-align: center
+			padding: 5px 0
+		&_link
+			display: block
+	.subheader
+		height: 60px
+		&_official
+			display: none
+		&_logo		
+			margin-top: 16px
+		&_phone
+			color: #FFF
+			text-align: center
+			font-size: 12px
+			font-weight: 400
+			text-transform: uppercase
+		&_btn
+			margin-top: 6px
+			width: 110px
+			height: 22px
+			font-size: 10px		
+	.promo
+		min-height: 400px
+		padding: 53px 0 35px 0
+		&_header
+			margin-top: 111px
+			font-size: 33px
+		&_subheader
+			margin-top: 33px
+			font-size: 22px
+		&_descr
+			display: none
+		&_btn
+			margin-top: 72px
+			width: 210px
+			height: 50px
+			margin-top: 72px
+	.menu
+		width: 85%
+	.reasons
+		padding: 22px 0 36px
+		&_block
+			margin-top: 26px
+		&_round
+			width: 100px
+			height: 100px
+		&_descr
+			margin-top: 27px
+			width: 100%
+	.subtitle
+		&_white
+			font-size: 14px
+			&_map
+				font-size: 14px
+	.footer
+		&_divider
+			width: 243px
+			margin: 20px auto
+		&_wrapper
+			padding-top: 22px
+		&_wrapper > div
+			&:nth-child(1)
+				order: 2
+			&:nth-child(2)
+				order: 1
+			&:nth-child(3)
+				order: 3
+		&_menu
+			width: 290px
+			margin: 0 auto
+			&_main
+				padding: 0
+				font-size: 14px
+			&_sub
+				flex-wrap: wrap
+				justify-content: center
+				a
+					margin: 0 7px
+			&_lang
+				margin-top: 10px
+			
+	.title
+		margin-top: 15px
+		font-size: 16px
+
+
+			

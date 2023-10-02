@@ -1,0 +1,187 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    position: relative;
+}
+nav {
+    position: fixed;/* липкая шапка */
+    width: 100%;/* липкая шапка */
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #212121;
+    z-index: 2; /* липкая шапка */
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+.menu .menu_link {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+}
+.subheader {
+    position:absolute;
+    top: 50px;/* липкая шапка */
+    width: 100%;
+    height: 87px;
+    flex-shrink: 0;
+    background-color: rgba(0,0,0, 0.6)
+}
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+.subheader .subheader_official {
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 100;
+    opacity: 0.5;
+}
+.subheader .subheader_call {
+    margin-top: 19px;
+    color: #FFF;
+    text-align: right;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+}
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    color: #FFF;
+    text-align: right;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 12px;
+}
+.subheader .subheader_btn {
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.12) inset;
+    width: 162px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.promo {
+    min-height: 800px;
+    background: url(../img/uber_main_bg.jpg) center center/cover no-repeat;
+}
+h1 {
+    margin-top: 222px;
+    color: #1EACC7;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.promo .promo_subheader {
+    color: #1EACC7;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.promo .promo_descr {
+    display: block;
+    margin-top: 50px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.promo .promo_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 65px;
+    width: 259px;
+    height: 63px;   
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.12) inset;
+    color: #FFF;
+    border: none;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.label {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px; /* 100% */
+    text-transform: uppercase;
+}
+.title {
+    margin-top: 33px;
+    color: #222;
+    text-align: center;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.reasons_item {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    min-height: 200px;
+}
+.reasons .reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 116px;
+    height: 116px;
+    flex-shrink: 0;
+    background-color: #1EACC7;
+    border-radius: 100%;
+}
+.reasons .reasons_descr {
+    padding-left: 25px;
+    color: #202020;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: 21px;
+}
+.reasons .reasons_descr span {
+    color: #1EACC7;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 123.529% */
+}
